@@ -213,21 +213,23 @@ ul.cat li {
 }
 ol.type li {
 	display: inline-block;
-	margin-left: 20px;
+	padding: 2px 0px;
+}
+ol.type li div{
+	border: 1px solid #777;
 }
 ol.type li a {
-	border: 1px solid #777;
+	display:block;
+	width: 165px;
+	padding: 12px 0px;
 	color: #555;
-	padding: 8px 20px;
 }
 ol.type li a.active {
 	background: #222;
-	border: 1px solid #222;
 	color: #AAA;
 }
 ol.type li a:hover {
 	background: #222;
-	border: 1px solid #222;
 	color: #AAA;
 }
 .isotope-item {
