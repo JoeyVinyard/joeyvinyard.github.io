@@ -158,7 +158,7 @@ hr {
 	-o-background-size: cover;
 }
 .section-title.center {
-	padding: 10px 0 40px 0;
+	padding: 10px 0 0 0;
 }
 .intro h1 {
 	font-size: 60px;
@@ -203,7 +203,7 @@ header .intro-text {
 }
 /* Portfolio Section */
 #portfolio {
-	padding: 120px 0;
+	padding: 120px 0 0 0;
 	background: #0C0C0C;
 }
 .categories {
@@ -224,11 +224,11 @@ ol.type li a {
 	display:block;
 	width: 165px;
 	padding: 9px 0px;
-	color: #555;
+	color: #CCC;
 }
 ol.type li a.active {
-	background: #222;
-	color: #AAA;
+	background: #333;
+	color: #DDD;
 }
 ol.type li a:hover {
 	background: #222;
@@ -327,13 +327,12 @@ ol.type li a:hover {
 	opacity: 1;
 }
 #portfolio i.fa {
-	font-size: 20px;
 	padding: 5px;
 	color: #E87E04;
 }
 /* Contact Section */
 #contact {
-	padding: 120px 0 60px 0;
+	padding: 40px 0 60px 0;
 	background: #111;
 }
 #contact h3 {
@@ -378,6 +377,15 @@ label {
 	-webkit-box-shadow: transparent;
 	box-shadow: transparent;
 }
+.contact-text{
+	font-size: 16px;
+}
+.contact-descriptor{
+	text-align:left;
+}
+.contact-info{
+	text-align:right;
+}
 .form-control::-webkit-input-placeholder {
 color: #2c3e50;
 }
@@ -391,14 +399,13 @@ color: #2c3e50;
 color: #2c3e50;
 }
 #contact .social {
-	margin-top: 80px;
+	margin-top: 20px;
 }
 #contact .social ul li {
 	display: inline-block;
 	margin: 0 20px;
 }
 #contact .social i.fa {
-	font-size: 22px;
 	padding: 4px;
 	color: #444;
 	transition: all 0.5s;
