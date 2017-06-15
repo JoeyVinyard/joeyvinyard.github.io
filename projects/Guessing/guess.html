@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="guess.css">
+  </head>
+  <body bgcolor = "#111111">
+    <center>
+      <p id = "win"></p>
+      <p id = "tries">You have 10 tries left</p>
+      <div id = "contain">
+        <table style="width:100%">
+          <tr>
+            <td>
+              <input id = "num1" type="number" min="0" max="9" maxlength="1">
+            </td>
+            <td>
+              <input id = "num2" type="number" min="0" max="9" maxlength="1">
+            </td>
+            <td>
+              <input id = "num3" type="number" min="0" max="9" maxlength="1">
+            </td>
+          </tr>
+        </table>
+      </div>
+      <button id = "check">Check</button>
+    </center>
+  </body>
+<script src = "https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+<script src = "guess.js"></script>
+</html>

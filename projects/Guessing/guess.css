@@ -1,0 +1,48 @@
+#contain{
+  width: 50%;
+  border-style: none;
+  border-width: 5px;
+  background-color: #111111;
+}
+#num1{
+  width:100%;
+  height:400px;
+  font-size:172px;
+  text-align:center;
+  appearance:textfield;
+  background-color: #AAAAAA;
+  border-color:#000000;
+}
+#num2{
+  width:100%;
+  height:400px;
+  font-size:172px;
+  text-align:center;
+  appearance:textfield;
+  background-color: #AAAAAA;
+  border-color:#000000;
+}
+#num3{
+  width:100%;
+  height:400px;
+  font-size:172px;
+  text-align:center;
+  appearance:textfield;
+  background-color: #AAAAAA;
+  border-color:#000000;
+}
+#check{
+  margin: 10px;
+  width: 200px;
+  height: 30px;
+  background-color: #AAAAAA;
+  border: none;
+}
+#tries{
+  font-size:36px;
+  color: #FFFFFF;
+}
+#win{
+  font-size:36px;
+  color: #00FF00;
+}
