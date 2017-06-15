@@ -98,7 +98,7 @@ hr {
 	border-bottom: 2px solid #AAA;
 }
 .navbar-custom a {
-	color: #CCC;
+	color: #AAA;
 }
 .navbar-custom .nav li a {
 	margin: 0 60px;
@@ -110,13 +110,13 @@ hr {
 }
 .navbar-custom .nav li a:hover {
 	outline: 0;
-	color: #000;
+	color: #EEE;
 	background-color: transparent;
 }
 .navbar-custom .nav li a:focus, .navbar-custom .nav li a:active {
 	outline: 0;
 	background-color: transparent;
-	color: #000;
+	color: #EEE;
 }
 .navbar-custom .nav li.active {
 	outline: 0;
