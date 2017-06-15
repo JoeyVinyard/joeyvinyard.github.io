@@ -64,8 +64,12 @@
                 currentLink = this.$el;
 
 			// Check content
+                                try{
 			var check = this.checkContent(currentLink);
 			if(!check) return;
+        }catch(e){
+
+        }
 
 			e.preventDefault();
             this.options.beforeShowLightbox.call(this);
@@ -112,10 +116,9 @@
         },
 
 		checkContent: function( link ) {
-			var $this = this,
-                href = link.attr('href'),
-                video = href.match(/(youtube|youtu|vimeo)\.(com|be)\/(watch\?v=([\w-]+)|([\w-]+))/);
-
+		      var $this = this,
+                            href = link.attr('href'),
+                            video = href.match(/(youtube|youtu|vimeo)\.(com|be)\/(watch\?v=([\w-]+)|([\w-]+))/);
             if(href.match(/\.(jpeg|jpg|gif|png)$/i) !== null){
 				return true;
 			}
@@ -140,10 +143,10 @@
 		},
 
         processContent: function(content, link){
+            try{
             var $this = this,
                 href = link.attr('href'),
                 video = href.match(/(youtube|youtu|vimeo)\.(com|be)\/(watch\?v=([\w-]+)|([\w-]+))/);
-
             content.html('').addClass('nivo-lightbox-loading');
 
             // Is HiDPI?
@@ -297,6 +300,7 @@
             } else {
                 $('.nivo-lightbox-title-wrap').html('');
             }
+        }catch(e){}
         },
 
         constructLightbox: function(){
